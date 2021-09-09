@@ -1,22 +1,28 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
+  const [code, setCode] = useState();
+
+  useEffect(() => {
+    const search = window.location.search;
+    const params = new URLSearchParams(search);
+    setCode(params.get('code'));
+  }, []);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          Awesome 👏
+        </div>
+        <div>
+          Now paste your token to Spotter 🚀
+        </div>
+        <div>
+          <input value={code}></input>
+          <button onClick={() => {navigator.clipboard.writeText(code)}}>copy</button>
+        </div>
       </header>
     </div>
   );
