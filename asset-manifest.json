@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/spotter-spotify-plugin-token/static/css/main.8d0a7cd1.chunk.css",
-    "main.js": "/spotter-spotify-plugin-token/static/js/main.0236b30f.chunk.js",
-    "main.js.map": "/spotter-spotify-plugin-token/static/js/main.0236b30f.chunk.js.map",
-    "runtime-main.js": "/spotter-spotify-plugin-token/static/js/runtime-main.d6d926a3.js",
-    "runtime-main.js.map": "/spotter-spotify-plugin-token/static/js/runtime-main.d6d926a3.js.map",
-    "static/js/2.1a92a36d.chunk.js": "/spotter-spotify-plugin-token/static/js/2.1a92a36d.chunk.js",
-    "static/js/2.1a92a36d.chunk.js.map": "/spotter-spotify-plugin-token/static/js/2.1a92a36d.chunk.js.map",
-    "static/js/3.24ff1932.chunk.js": "/spotter-spotify-plugin-token/static/js/3.24ff1932.chunk.js",
-    "static/js/3.24ff1932.chunk.js.map": "/spotter-spotify-plugin-token/static/js/3.24ff1932.chunk.js.map",
+    "main.js": "/spotter-spotify-plugin-token/static/js/main.c4f3c8d7.chunk.js",
+    "main.js.map": "/spotter-spotify-plugin-token/static/js/main.c4f3c8d7.chunk.js.map",
+    "runtime-main.js": "/spotter-spotify-plugin-token/static/js/runtime-main.8f489ff2.js",
+    "runtime-main.js.map": "/spotter-spotify-plugin-token/static/js/runtime-main.8f489ff2.js.map",
+    "static/js/2.0ab91a00.chunk.js": "/spotter-spotify-plugin-token/static/js/2.0ab91a00.chunk.js",
+    "static/js/2.0ab91a00.chunk.js.map": "/spotter-spotify-plugin-token/static/js/2.0ab91a00.chunk.js.map",
+    "static/js/3.e002f4f7.chunk.js": "/spotter-spotify-plugin-token/static/js/3.e002f4f7.chunk.js",
+    "static/js/3.e002f4f7.chunk.js.map": "/spotter-spotify-plugin-token/static/js/3.e002f4f7.chunk.js.map",
     "index.html": "/spotter-spotify-plugin-token/index.html",
     "static/css/main.8d0a7cd1.chunk.css.map": "/spotter-spotify-plugin-token/static/css/main.8d0a7cd1.chunk.css.map",
-    "static/js/2.1a92a36d.chunk.js.LICENSE.txt": "/spotter-spotify-plugin-token/static/js/2.1a92a36d.chunk.js.LICENSE.txt"
+    "static/js/2.0ab91a00.chunk.js.LICENSE.txt": "/spotter-spotify-plugin-token/static/js/2.0ab91a00.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d6d926a3.js",
-    "static/js/2.1a92a36d.chunk.js",
+    "static/js/runtime-main.8f489ff2.js",
+    "static/js/2.0ab91a00.chunk.js",
     "static/css/main.8d0a7cd1.chunk.css",
-    "static/js/main.0236b30f.chunk.js"
+    "static/js/main.c4f3c8d7.chunk.js"
   ]
 }
