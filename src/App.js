@@ -11,7 +11,7 @@ function App() {
     const plugin = params.get('state');
 
     if (code) {
-      window.location.href = `spotter://x-callback-url/command?type=patchStorage&pluginName=${plugin}&value={"token":"${code}"}`;
+      window.location.href = `spotter://x-callback-url/command?type=patchStorage&pluginName=${plugin}&token:${code}}`;
       setCode(code);
     }
   }, []);
