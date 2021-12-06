@@ -7,21 +7,27 @@ function App() {
   useEffect(() => {
     const search = window.location.search;
     const params = new URLSearchParams(search);
-    setCode(params.get('code'));
+    const code = params.get('code');
+    const plugin = params.get('state');
+
+    if (code) {
+      window.location.href = `spotter://x-callback-url/command?type=patchStorage&pluginName=${plugin}&value={"token":"${code}"}`;
+      setCode(code);
+    }
   }, []);
 
   return (
     <div className="App">
       <header className="App-header">
+        {code ? <>
+          <div>
+            Awesome 👏
+          </div>
+          <div>
+            Now we have to pass your token to Spotter 🚀
+          </div>
+        </> : <div>Something went wrong 🧐</div>}
         <div>
-          Awesome 👏
-        </div>
-        <div>
-          Now paste your token to Spotter 🚀
-        </div>
-        <div>
-          <input value={code}></input>
-          <button onClick={() => {navigator.clipboard.writeText(code)}}>copy</button>
         </div>
       </header>
     </div>
